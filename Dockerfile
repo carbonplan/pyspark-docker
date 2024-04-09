@@ -1,8 +1,8 @@
 
-# FROM quay.io/nebari/nebari-jupyterlab
+FROM quay.io/nebari/nebari-jupyterlab
 
 
-FROM pangeo/pangeo-notebook:latest 
+# FROM pangeo/pangeo-notebook:latest 
 
 USER root
 
