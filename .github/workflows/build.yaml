@@ -43,4 +43,4 @@ jobs:
         # Disable pushing a 'latest' tag, as this often just causes confusion
         # LATEST_TAG_OFF: true
         #
-        IMAGE_NAME: "carbonplan/carbonplan-spark"
+        IMAGE_NAME: "carbonplan/pyspark-docker"
