@@ -14,7 +14,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 
 # ENV JAVA_HOME=/usr/bin/java
 # ENV JAVA_HOME=/usr/lib/jvm/java-17-openjdk-amd64/bin/java
-ENV=/usr/lib/jvm/java-17-openjdk-amd64
+ENV JAVA_HOME=/usr/lib/jvm/java-17-openjdk-amd64
 
 ENV PYSPARK_PYTHON=/srv/conda/envs/notebook/bin/python
 ENV SPARK_HOME=${SPARK_HOME:-"/opt/spark"}
